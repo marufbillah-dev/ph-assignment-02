@@ -22,3 +22,82 @@
   --haiti-glass: rgba(53, 17, 101, 0.4);
   --haiti-circle: rgba(42, 24, 108, 1);
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gradient-text {
+  background: var(--linear);
+  background-clip: text;
+  color: transparent;
+}
+
+/* solid button */
+.btn-solid {
+  padding: 12px 16px;
+  background: var(--linear);
+  border-radius: 100px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.btn-solid:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 24px rgba(251, 9, 180, 0.35),
+    0 4px 12px rgba(145, 0, 248, 0.25);
+}
+.btn-solid:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(251, 9, 180, 0.25);
+}
+/* solid button ends */
+
+/* transparent button starts */
+.btn-transparent {
+  padding: 12px 16px;
+  background: transparent;
+  border-radius: 100px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--green);
+  border: 1px solid var(--green);
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+.btn-transparent:hover {
+  background-color: rgba(0, 255, 136, 0.1);
+  color: rgba(0, 255, 136, 0.95);
+  border-color: rgba(0, 255, 136, 0.95);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 255, 136, 0.25);
+}
+.btn-transparent:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(0, 255, 136, 0.2);
+}
+/* transparent button starts */
+
+/* nav starts */
+.hamburger-menu {
+  display: none;
+}
+.nav-menu .menu-item {
+  transition: color 0.3s ease-in-out;
+}
+.nav-menu .menu-item a:hover {
+  color: rgb(231, 9, 168);
+}
+/* nav ends */

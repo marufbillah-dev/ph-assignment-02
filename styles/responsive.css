@@ -1,7 +1,31 @@
 @media screen and (max-width: 991px) {
   /* medium device */
+  .container {
+    padding: 0 40px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 576px) {
   /* small device */
+  .container {
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  nav {
+    padding: 18px 0;
+  }
+  .logo a {
+    font-size: 20px;
+  }
+  .nav-menu,
+  .nav-button {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .hamburger-menu img {
+    width: 24px;
+  }
 }
