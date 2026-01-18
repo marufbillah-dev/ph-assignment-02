@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@layer {
+  .font-inter {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+:root {
+  /* using :root instead of tailwind @theme customization, because tailwind v4 cdn doesn't support @theme */
+  --linear: linear-gradient(
+    to top right,
+    #f7e93f 0%,
+    #fb09b4 51%,
+    #9100f8 100%
+  );
+  --green: rgba(0, 255, 136, 1);
+  --haiti-primary: rgba(26, 11, 46, 1);
+  --haiti-light: rgba(35, 14, 61, 1);
+  --haiti-glass: rgba(53, 17, 101, 0.4);
+  --haiti-circle: rgba(42, 24, 108, 1);
+}
