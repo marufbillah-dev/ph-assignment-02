@@ -4,6 +4,26 @@
     padding: 0 40px;
     margin: 0 auto;
   }
+  /* banner section starts */
+  #banner {
+    padding: 70px 0;
+    background-position: center 25px;
+  }
+  .banner-image-section {
+    height: 250px;
+    aspect-ratio: 1;
+  }
+  .banner-image img {
+    width: 90px;
+  }
+  .image-badge {
+    top: 5px;
+    right: 5px;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+  /* banner section ends */
 }
 
 @media screen and (max-width: 576px) {
@@ -12,6 +32,7 @@
     padding: 0 20px;
     margin: 0 auto;
   }
+  /* nav starts */
   nav {
     padding: 18px 0;
   }
@@ -28,4 +49,32 @@
   .hamburger-menu img {
     width: 24px;
   }
+  /* nav ends */
+
+  /* banner section starts */
+  #banner {
+    padding: 40px 0;
+    background-position: center 75px;
+  }
+  .banner-contents {
+    gap: 24px;
+  }
+  .banner-image-section {
+    height: 200px;
+    aspect-ratio: 1;
+  }
+  .banner-image img {
+    width: 80px;
+  }
+  .image-badge {
+    top: 0;
+    right: 0;
+  }
+  .image-badge p {
+    font-size: 1rem;
+  }
+  .banner-title {
+    font-size: 2.5rem;
+  }
+  /* banner section ends */
 }

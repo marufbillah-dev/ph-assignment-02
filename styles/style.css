@@ -20,7 +20,6 @@
   --haiti-primary: rgba(26, 11, 46, 1);
   --haiti-light: rgba(35, 14, 61, 1);
   --haiti-glass: rgba(53, 17, 101, 0.4);
-  --haiti-circle: rgba(42, 24, 108, 1);
 }
 
 .container {
@@ -68,7 +67,7 @@
   font-size: 1rem;
   font-weight: 600;
   color: var(--green);
-  border: 1px solid var(--green);
+  border: 2px solid var(--green);
   cursor: pointer;
   transition:
     background-color 0.3s ease,
@@ -91,6 +90,9 @@
 /* transparent button starts */
 
 /* nav starts */
+nav{
+    border-bottom: 1px solid rgba(65, 37, 103, 1);
+}
 .hamburger-menu {
   display: none;
 }
@@ -101,3 +103,21 @@
   color: rgb(231, 9, 168);
 }
 /* nav ends */
+
+/* banner section starts */
+#banner {
+  background: url(../images/hero-bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-image-section {
+  background: url(../images/hero-circle.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image-badge{
+    box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
+}
+/* banner section ends */

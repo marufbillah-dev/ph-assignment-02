@@ -18,18 +18,18 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
   </head>
-  <body class="font-inter bg-[var(--haiti-primary)]">
+  <body class="font-inter bg-[var(--haiti-primary)] text-white">
     <header>
       <!-- nav starts -->
       <nav class="py-6">
         <div class="nav-container container flex justify-between items-center">
           <div class="logo">
-            <a href="" class="text-[32px] font-extrabold text-white"
+            <a href="" class="text-[32px] font-extrabold"
               >Tech<span class="gradient-text">Wave</span></a
             >
           </div>
           <div class="nav-menu">
-            <ul class="menu-container **:text-white flex gap-8">
+            <ul class="menu-container flex gap-8">
               <li class="menu-item"><a href="">About</a></li>
               <li class="menu-item"><a href="">Episodes</a></li>
               <li class="menu-item"><a href="">Host</a></li>
@@ -44,6 +44,46 @@
         </div>
       </nav>
       <!-- nav ends -->
+
+      <!-- banner section starts -->
+      <section id="banner" class="py-[100px]">
+        <div class="banner-container">
+          <div class="banner-contents flex gap-10 items-center flex-col">
+            <div
+              class="banner-image-section h-[350px] aspect-square flex justify-center items-center relative"
+            >
+              <div class="banner-image">
+                <img src="./images/microphone.png" alt="" />
+              </div>
+              <div
+                class="image-badge py-2 px-4 rounded-4xl bg-[var(--green)] w-fit absolute top-4 right-4"
+              >
+                <p class="text-lg font-semibold text-[var(--haiti-primary)]">
+                  NEW
+                </p>
+              </div>
+            </div>
+            <div class="banner-title-section text-center">
+              <h1 class="banner-title text-6xl font-extrabold mb-2">
+                TechWave
+              </h1>
+              <p class="banner-desc mb-6">
+                Your daily dose of tech insights, productivity hacks, and
+                personal growth
+              </p>
+              <div class="banner-buttons">
+                <button class="btn-solid mr-2">
+                  <i class="fa-brands fa-spotify"></i> Listen On Spotify
+                </button>
+                <button class="btn-transparent">
+                  <i class="fa-regular fa-envelope"></i> Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner section ends -->
     </header>
   </body>
 </html>
