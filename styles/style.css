@@ -90,13 +90,13 @@
 /* transparent button starts */
 
 /* nav starts */
-nav{
-    border-bottom: 1px solid rgba(65, 37, 103, 1);
+nav {
+  border-bottom: 1px solid rgba(65, 37, 103, 1);
 }
 .hamburger-menu {
   display: none;
 }
-.nav-menu .menu-item {
+.nav-menu .menu-item a {
   transition: color 0.3s ease-in-out;
 }
 .nav-menu .menu-item a:hover {
@@ -117,7 +117,11 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
 }
-.image-badge{
-    box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
+.image-badge {
+  box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
 }
 /* banner section ends */
+
+/* about section starts */
+
+/* about section ends */
