@@ -123,5 +123,13 @@ nav {
 /* banner section ends */
 
 /* about section starts */
-
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+}
 /* about section ends */
+
+/* why-choose section starts */
+
+/* why-choose section ends */
