@@ -79,7 +79,7 @@
   /* why-choose section ends */
 
   /* featured-episodes section starts */
-    #featured-episodes {
+  #featured-episodes {
     padding: 60px 0 40px;
   }
   #featured-episodes .section-title {
@@ -100,6 +100,37 @@
     margin-bottom: 10px;
   }
   /* featured-episodes section ends */
+
+  /* host section starts */
+  #host {
+    padding: 40px 0 60px;
+  }
+  #host .section-title {
+    margin-bottom: 30px;
+  }
+  .host-card-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .host-info {
+    max-width: 42rem;
+  }
+  .host-photo img {
+    width: 175px;
+  }
+  #host .host-name {
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+  }
+  #host .host-info {
+    margin-bottom: 20px;
+  }
+  .host-social-links {
+    justify-content: center;
+  }
+  /* host section ends */
 }
 
 @media screen and (max-width: 576px) {
@@ -224,4 +255,32 @@
     margin-bottom: 8px;
   }
   /* featured-episodes section ends */
+
+  /* host section starts */
+  #host {
+    padding: 30px 0 40px;
+  }
+  #host .section-title {
+    margin-bottom: 24px;
+  }
+  .host-card-container {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    padding: 24px;
+  }
+  .host-photo img {
+    width: 150px;
+  }
+  #host .host-name {
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+  }
+  #host .host-info {
+    margin-bottom: 16px;
+  }
+  .host-social-links {
+    justify-content: center;
+  }
+  /* host section ends */
 }
