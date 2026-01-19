@@ -329,3 +329,20 @@
   }
   /* footer ends */
 }
+
+/* this breakpoint specially for very small size desktop or laptop monitor for their left-right spacing */
+@media screen and (min-width: 993px) and (max-width: 1270px) {
+  .container {
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+}
+/* this breakpoint declared to control navbar responsibility for small tablet devices */
+@media screen and (min-width: 577px) and (max-width: 670px) {
+  nav .logo a {
+    font-size: 1.75rem;
+  }
+  .menu-container {
+    gap: 1rem;
+  }
+}
